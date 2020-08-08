@@ -491,9 +491,9 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
   // Creality Ender-3
-  #define DEFAULT_Kp 49.36
-  #define DEFAULT_Ki 9.19
-  #define DEFAULT_Kd 66.28
+  #define DEFAULT_Kp 47.53
+  #define DEFAULT_Ki 8.24
+  #define DEFAULT_Kd 68.59
 
 #endif // PIDTEMP
 
