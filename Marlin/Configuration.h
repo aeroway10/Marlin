@@ -574,7 +574,7 @@
  * Note: For Bowden Extruders make this large enough to allow load/unload.
  */
 #define PREVENT_LENGTHY_EXTRUDE
-#define EXTRUDE_MAXLENGTH 100
+#define EXTRUDE_MAXLENGTH 150
 
 //===========================================================================
 //======================== Thermal Runaway Protection =======================
@@ -995,7 +995,7 @@
 #define PROBING_MARGIN 15
 
 // X and Y axis travel speed (mm/m) between probes
-#define XY_PROBE_SPEED 6000
+#define XY_PROBE_SPEED (100*60)
 
 // Feedrate (mm/m) for the first approach when double-probing (MULTIPLE_PROBING == 2)
 #define Z_PROBE_SPEED_FAST HOMING_FEEDRATE_Z
